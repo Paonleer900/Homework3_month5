@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc7c497c-064d-49f3-a962-c21334fe2403" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Homework3_month5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Homework3_month5.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework3_month5/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework3_month5/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework3_month5/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Homework3_month5/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/otziv/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/otziv/serializers.py" afterDir="false" />
-    </list>
+    <list default="true" id="dc7c497c-064d-49f3-a962-c21334fe2403" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +87,7 @@
       <workItem from="1728504539491" duration="1093000" />
       <workItem from="1728575845974" duration="5406000" />
       <workItem from="1728729523100" duration="1395000" />
-      <workItem from="1728812831794" duration="3163000" />
+      <workItem from="1728812831794" duration="4074000" />
     </task>
     <servers />
   </component>
