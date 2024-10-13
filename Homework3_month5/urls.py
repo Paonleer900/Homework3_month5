@@ -16,7 +16,19 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
+from django.urls import path
+from otziv.views import (DirectorListCreateView, DirectorDetailView,
+                    MovieListCreateView, MovieDetailView, ReviewListCreateView, ReviewDetailView)
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    # Director routes
+    path('api/v1/directors/', DirectorListCreateView.as_view(), name='director-list-create'),
+    path('api/v1/directors/<int:id>/', DirectorDetailView.as_view(), name='director-detail'),
+
+    # Movie routes
+    path('api/v1/movies/', MovieListCreateView.as_view(), name='movie-list-create'),
+    path('api/v1/movies/<int:id>/', MovieDetailView.as_view(), name='movie-detail'),
+
+    # Review routes
+    path('api/v1/reviews/', ReviewListCreateView.as_view(), name='review-list-create'),
+    path('api/v1/reviews/<int:id>/', ReviewDetailView.as_view(), name='review-detail'),
 ]
